@@ -30,7 +30,7 @@ const noop = (...args: Array<any>) => {};
 
   atoms({
     // @ts-expect-error Invalid value
-    paddingTop: 'mediumm',
+    paddingTop: 'medium_',
   });
 
   atoms({
@@ -52,13 +52,13 @@ const noop = (...args: Array<any>) => {};
 
   atoms({
     // @ts-expect-error Shorthand with invalid value
-    paddingY: 'mediumm',
+    paddingY: 'medium_',
   });
 
   atoms({
     // @ts-expect-error Shorthand with invalid conditional value
     paddingTop: {
-      mobile: 'mediumm',
+      mobile: 'medium_',
     },
   });
 
@@ -72,7 +72,7 @@ const noop = (...args: Array<any>) => {};
   atoms({
     // @ts-expect-error Shorthand with invalid conditional value
     paddingY: {
-      mobile: 'mediumm',
+      mobile: 'medium_',
     },
   });
 
