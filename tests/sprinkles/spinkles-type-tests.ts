@@ -47,7 +47,7 @@ const noop = (...args: Array<any>) => {};
 
   atoms({
     // @ts-expect-error Invalid responsive array value
-    paddingTop: ['medium', 'smalll'],
+    paddingTop: ['medium', 'small_'],
   });
 
   atoms({
@@ -85,7 +85,7 @@ const noop = (...args: Array<any>) => {};
 
   atoms({
     // @ts-expect-error Shorthand with invalid responsive array value
-    paddingY: ['medium', 'smalll'],
+    paddingY: ['medium', 'small_'],
   });
 
   // Valid value - Accept readonly arrays
