@@ -187,7 +187,7 @@ export const HomePage = () => {
                 </Box>
                 <Code
                   language="tsx"
-                  errorTokens={['brandd', 'large']}
+                  errorTokens={['brand', 'large']}
                   title="styles.css.ts"
                 >
                   {dedent`
@@ -205,7 +205,7 @@ export const HomePage = () => {
                   });
 
                   export const hero = style({
-                    backgroundColor: vars.color.brandd,
+                    backgroundColor: vars.color.brand,
                     color: vars.color.white,
                     padding: vars.space.large
                   });`}
@@ -358,7 +358,7 @@ export const HomePage = () => {
 
                 <Code
                   language="tsx"
-                  errorTokens={['brandd']}
+                  errorTokens={['brand']}
                   title="styles.css.ts"
                   background={{ lightMode: 'coolGray900', darkMode: 'gray900' }}
                 >
@@ -373,7 +373,7 @@ export const HomePage = () => {
                     });
 
                     export const brandedSection = style({
-                      backgroundColor: vars.color.brandd,
+                      backgroundColor: vars.color.brand,
                     });
                   `}
                 </Code>
