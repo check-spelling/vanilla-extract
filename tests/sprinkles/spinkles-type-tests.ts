@@ -130,7 +130,7 @@ const noop = (...args: Array<any>) => {};
 
   normalizeValue({
     // @ts-expect-error - Incorrect conditional keys
-    mobille: '',
+    mobile_: '',
   });
 
   function testGenericNormalizeValue<Key extends string | number>(
